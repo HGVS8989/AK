@@ -1,18 +1,8 @@
-#tril for learn
-html code for crete an object
 <html>
 <head>
 	<title>Motion Example</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="motion-container">
-		<div class="moving-object"></div>
-	</div>
-	<script src="script.js"></script>
-</body>
-</html>
-//css file
+<style>
 .motion-container {
 	width: 100%;
 	height: 100vh;
@@ -39,3 +29,11 @@ html code for crete an object
 		transform: translateX(0);
 	}
 }
+</style>
+</head>
+<body>
+	<div class="motion-container">
+		<div class="moving-object"></div>
+	</div>
+</body>
+</html>
